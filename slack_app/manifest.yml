@@ -1,0 +1,31 @@
+_metadata:
+  major_version: 1
+  minor_version: 1
+display_information:
+  name: 2ch
+  description: 掲示板へ匿名で投稿できるようにする。
+  background_color: "#323336"
+features:
+  bot_user:
+    display_name: 2ch
+    always_online: false
+  slash_commands:
+    - command: /2ch
+      url: #Enter web app URL of Google Apps Script here.
+      description: 2ch
+      usage_hint: "掲示板へ投稿"
+      should_escape: false
+oauth_config:
+  scopes:
+    user:
+      - search:read
+    bot:
+      - chat:write
+      - commands
+settings:
+  interactivity:
+    is_enabled: true
+    request_url: #Enter web app URL of Google Apps Script here.
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
