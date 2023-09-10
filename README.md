@@ -1,5 +1,6 @@
 # slack_bbs
-Slackのチャンネルに匿名掲示板風の投稿機能を付与するSlack app
+Slackのチャンネルに匿名掲示板風の投稿機能を付与するSlack app。  
+元ネタはこちら https://qiita.com/peisuke/items/80984db8b47cd8243019
 
 # 概要
 入力されたメッセージをGASで処理して、匿名掲示板の書き込み風にしたうえで特定のチャンネルに投稿します。  
